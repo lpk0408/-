@@ -3,3 +3,4 @@
 * **主控芯片**：RK2206 (运行 OpenHarmony / LiteOS)
 * **从机节点 1**：STM32F407 移植Huawei LiteOS操作系统 (喂粮从机)
 * **从机节点 2**：STM32F407 移植Huawei LiteOS操作系统 (穿戴从机)
+* **[关于LiteOS操作系统移植教程链接](https://www.cnblogs.com/tianbeibei/articles/18740766)** *
