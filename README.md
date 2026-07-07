@@ -1,5 +1,5 @@
 # 🐾 云宠灵犀 — 基于 RK2206 + OpenHarmony 多模态 AI 宠物智护系统
-
+## 第九届嵌入式芯片与系统设计大赛/软通赛道/宠物关怀作品
 > **CloudPet Lingxi** — A Multi-Modal AI Pet Smart Care System based on RK2206 + OpenHarmony OS
 
 [![Platform](https://img.shields.io/badge/Platform-OpenHarmony%20%7C%20LiteOS-blue)](https://www.openharmony.cn/)
