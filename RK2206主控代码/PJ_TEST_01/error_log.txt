@@ -1,0 +1,60 @@
+[OHOS INFO] [841/861] AR libs/libhota.a
+[OHOS INFO] [842/861] STAMP obj/utils/native/lite/os_dump/utils_os_dump.stamp
+[OHOS INFO] [843/861] gcc cross compiler obj/vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/libPJ_TEST_example.SU_03T.o
+[OHOS INFO] [844/861] gcc cross compiler obj/vendor/isoftstone/rk2206/samples/PJ_TEST_01/libPJ_TEST_example.main.o
+[OHOS INFO] [845/861] ACTION //vendor/isoftstone/rk2206/hdf_config:hc_gen(//build/lite/toolchain:arm-none-eabi-gcc)
+[OHOS INFO] [846/861] ACTION //test/xts/acts/build_lite:acts_xdevice(//build/lite/toolchain:arm-none-eabi-gcc)
+[OHOS ERROR] [843/861] gcc cross compiler obj/vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/libPJ_TEST_example.SU_03T.o
+[OHOS ERROR] FAILED: obj/vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/libPJ_TEST_example.SU_03T.o 
+[OHOS ERROR] ccache arm-none-eabi-gcc -D_XOPEN_SOURCE=700 -DOHOS_DEBUG -D__LITEOS__ -D__LITEOS_M__ -I../../../utils/native/lite/include -I../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/include -I../../../base/iot_hardware/peripheral/interfaces/kits -I../../../utils/native/lite/hals/file -I../../../utils/native/lite/include -I../../../device/rockchip/hardware/project/rk2206/src -I../../../device/rockchip/hardware/lib/hal/inc -I../../../device/rockchip/rk2206/adapter/include -I../../../device/rockchip/rk2206/sdk_liteos/board/include -I../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/include -I../../../third_party/lwip/src/include/lwip -I../../../utils/native/lite/include -I../../../device/rockchip/hardware/project/rk2206/src -I../../../device/rockchip/hardware/lib/hal/inc -I../../../device/rockchip/rk2206/adapter/include -I../../../device/rockchip/rk2206/sdk_liteos/board/include -I../../../third_party/lwip/src/include/lwip -I../../../kernel/liteos_m/components/shell/include -I../../../base/iot_hardware/peripheral/interfaces/kits -I../../../device/rockchip/rk2206/adapter/include -I../../../device/rockchip/rk2206/sdk_liteos/board/include -I../../../device/rockchip/hardware/lib/hal/inc -I../../../device/rockchip/hardware/lib/CMSIS/Device/RK2206/Include -I../../../third_party/cJSON -I../../../third_party/musl/porting/liteos_m/kernel/include -I../../../third_party/paho_mqtt/MQTTPacket/src -I../../../third_party/paho_mqtt/MQTTClient-C/src -I../../../device/rockchip/rk2206/sdk_liteos/include -I../../../device/rockchip/rk2206/adapter/include -I../../../device/rockchip/rk2206/sdk_liteos/board/fs -I../../../device/rockchip/rk2206/sdk_liteos/board/include -I../../../device/rockchip/hardware/lib/CMSIS/Device/RK2206/Include -I../../../third_party/cmsis/CMSIS/Core/Include -I../../../kernel/liteos_m/kal/posix/include -I../../../kernel/liteos_m/components/fs/fatfs -I../../../kernel/liteos_m/kernel/include -I../../../kernel/liteos_m/kernel/arch/include -I../../../kernel/liteos_m/kernel/arch/arm/cortex-m4/gcc -I../../../kernel/liteos_m/utils -I../../../kernel/liteos_m/kal/cmsis -I../../../kernel/liteos_m/components/net/lwip-2.1/porting/include -I../../../third_party/FatFs/source -I../../../third_party/musl/arch/arm -I../../../third_party/lwip/src/include -I../../../utils/native/lite/include -I../../../foundation/communication/wifi_aware/interfaces/kits -I../../../foundation/communication/wifi_lite/interfaces/wifiservice -I../../../foundation/communication/ipc_lite/interfaces/kits -I../../../foundation/communication/softbus_lite/interfaces/kits/discovery -I../../../foundation/communication/softbus_lite/interfaces/kits/transport -I../../../base/startup/syspara_lite/interfaces/kits -I../../../base/security/huks/interfaces/innerkits/huks_lite -I../../../utils/native/lite/include -I../../../base/hiviewdfx/hilog_lite/interfaces/native/kits -I../../../third_party/openssl/crypto/ec -I../../../third_party/openssl/include -I../../../kernel/liteos_m/components -I../../../third_party/bounds_checking_function/include -I../../../kernel/liteos_m/kal/posix/include -I../../../third_party/musl/porting/liteos_m/kernel/include -Os -mcpu=cortex-m4 -mthumb -Wall -fdata-sections -ffunction-sections -DUSE_HAL_DRIVER -D_STORAGE_LITE_ -D__LITEOS_M__ -D_BSD_SOURCE -D_GNU_SOURCE -DLOGCFG_SHELL -mcpu=cortex-m4 -mthumb -Wall -fdata-sections -ffunction-sections -DUSE_HAL_DRIVER -D_STORAGE_LITE_ -D__LITEOS_M__ -D_BSD_SOURCE -D_GNU_SOURCE -DLOGCFG_SHELL -mcpu=cortex-m4 -fno-common -fno-builtin -fno-strict-aliasing -Wall -fsigned-char -fstack-protector-all -std=c99 -c ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/SU_03T.c -o obj/vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/libPJ_TEST_example.SU_03T.o
+[OHOS ERROR] In file included from ../../../kernel/liteos_m/components/net/lwip-2.1/porting/include/arch/cc.h:43,
+[OHOS ERROR]                  from ../../../third_party/lwip/src/include/lwip/arch.h:48,
+[OHOS ERROR]                  from ../../../third_party/lwip/src/include/lwip/debug.h:40,
+[OHOS ERROR]                  from ../../../third_party/lwip/src/include/lwip/opt.h:52,
+[OHOS ERROR]                  from ../../../third_party/lwip/src/include/lwip/inet.h:43,
+[OHOS ERROR]                  from ../../../kernel/liteos_m/components/net/lwip-2.1/porting/include/lwip/inet.h:37,
+[OHOS ERROR]                  from ../../../device/rockchip/rk2206/sdk_liteos/board/include/config_network.h:20,
+[OHOS ERROR]                  from ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/include/all.h:20,
+[OHOS ERROR]                  from ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/SU_03T.c:1:
+[OHOS ERROR] ../../../third_party/musl/porting/liteos_m/kernel/include/endian.h: In function '__bswap32':
+[OHOS ERROR] ../../../third_party/musl/porting/liteos_m/kernel/include/endian.h:26:25: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+[OHOS ERROR]    26 |  return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+[OHOS ERROR]       |                   ~~~~~~^~~~~~~
+[OHOS ERROR] ../../../third_party/musl/porting/liteos_m/kernel/include/endian.h:26:41: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+[OHOS ERROR]    26 |  return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+[OHOS ERROR]       |                                   ~~~~~~^~~~~~~~~
+[OHOS ERROR] ../../../third_party/musl/porting/liteos_m/kernel/include/endian.h: In function '__bswap64':
+[OHOS ERROR] ../../../third_party/musl/porting/liteos_m/kernel/include/endian.h:31:23: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+[OHOS ERROR]    31 |  return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+[OHOS ERROR]       |         ~~~~~~~~~~~~~~^~~~~
+[OHOS ERROR] In file included from ../../../device/rockchip/rk2206/adapter/include/lz_hardware.h:45,
+[OHOS ERROR]                  from ../../../device/rockchip/rk2206/sdk_liteos/board/include/config_network.h:22,
+[OHOS ERROR]                  from ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/include/all.h:20,
+[OHOS ERROR]                  from ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/SU_03T.c:1:
+[OHOS ERROR] ../../../device/rockchip/rk2206/adapter/include/lz_hardware/wifi.h: At top level:
+[OHOS ERROR] ../../../device/rockchip/rk2206/adapter/include/lz_hardware/wifi.h:27: warning: "WIFI_MAX_KEY_LEN" redefined
+[OHOS ERROR]    27 | #define WIFI_MAX_KEY_LEN     64 // 63 + \0
+[OHOS ERROR]       | 
+[OHOS ERROR] In file included from ../../../foundation/communication/wifi_lite/interfaces/wifiservice/wifi_linked_info.h:38,
+[OHOS ERROR]                  from ../../../foundation/communication/wifi_lite/interfaces/wifiservice/wifi_event.h:40,
+[OHOS ERROR]                  from ../../../foundation/communication/wifi_lite/interfaces/wifiservice/wifi_device.h:39,
+[OHOS ERROR]                  from ../../../device/rockchip/rk2206/sdk_liteos/board/include/config_network.h:18,
+[OHOS ERROR]                  from ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/include/all.h:20,
+[OHOS ERROR]                  from ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/SU_03T.c:1:
+[OHOS ERROR] ../../../foundation/communication/wifi_lite/interfaces/wifiservice/wifi_device_config.h:66: note: this is the location of the previous definition
+[OHOS ERROR]    66 | #define WIFI_MAX_KEY_LEN 65 // 64 + \0
+[OHOS ERROR]       | 
+[OHOS ERROR] ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/SU_03T.c: In function 'su_03t_thread':
+[OHOS ERROR] ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/SU_03T.c:67:9: warning: implicit declaration of function 'LOS_QueueRead'; did you mean 'LOS_EventRead'? [-Wimplicit-function-declaration]
+[OHOS ERROR]    67 |         LOS_QueueRead(m_su03_msg_queue, (void *)&data_ptr, BUFFER_LEN, LOS_WAIT_FOREVER);
+[OHOS ERROR]       |         ^~~~~~~~~~~~~
+[OHOS ERROR]       |         LOS_EventRead
+[OHOS ERROR] ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/SU_03T.c:70:41: error: 'recv_data' undeclared (first use in this function)
+[OHOS ERROR]    70 |         LOS_QueueRead(m_su03_msg_queue, recv_data, sizeof(recv_data), LOS_WAIT_FOREVER);
+[OHOS ERROR]       |                                         ^~~~~~~~~
+[OHOS ERROR] ../../../vendor/isoftstone/rk2206/samples/PJ_TEST_01/src/SU_03T.c:70:41: note: each undeclared identifier is reported only once for each function it appears in
+[OHOS ERROR] you can check build log in /home/openharmony/txsmartropenharmony/out/rk2206/isoftstone-rk2206/build.log
+[OHOS ERROR] command: "/home/openharmony/txsmartropenharmony/prebuilts/build-tools/linux-x86/bin/ninja -w dupbuild=warn -C /home/openharmony/txsmartropenharmony/out/rk2206/isoftstone-rk2206" failed
+[OHOS ERROR] return code: 1
+[OHOS ERROR] execution path: /home/openharmony/txsmartropenharmony
+root@1c7a8c38ce2f:/home/openharmony/txsmartropenharmony# 
