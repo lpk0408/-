@@ -1,0 +1,51 @@
+static_library("PJ_TEST_example") {
+    sources = [
+        "main.c",
+        "src/DATA_Basic.c",
+        "src/KEY.c",
+        "src/BEEP.c",
+        "src/SU_03T.c",
+        "src/UART0_M0.c",
+        "src/lora.c",
+        "src/wifi.c",
+        "src/mqtt.c",
+        "src/pwm_sg.c",
+        "src/gpio_con.c",
+        "src/lcd.c",
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "include",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//utils/native/lite/hals/file",
+        "//utils/native/lite/include",
+        "//device/rockchip/hardware/project/rk2206/src",
+        "//device/rockchip/hardware/lib/hal/inc/",
+        "//device/rockchip/rk2206/adapter/include",
+        "//device/rockchip/rk2206/sdk_liteos/board/include",
+        "include",
+        "//third_party/lwip/src/include/lwip",
+        "//utils/native/lite/include",
+        "//device/rockchip/hardware/project/rk2206/src",
+        "//device/rockchip/hardware/lib/hal/inc/",
+        "//device/rockchip/rk2206/adapter/include",
+        "//device/rockchip/rk2206/sdk_liteos/board/include",
+        "//third_party/lwip/src/include/lwip",
+        "//kernel/liteos_m/components/shell/include",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/rockchip/rk2206/adapter/include",
+        "//device/rockchip/rk2206/sdk_liteos/board/include",
+        "//device/rockchip/hardware/lib/hal/inc",
+        "//device/rockchip/hardware/lib/CMSIS/Device/RK2206/Include/",
+        "//third_party/cJSON",
+        "//third_party/musl/porting/liteos_m/kernel/include",
+        "//third_party/paho_mqtt/MQTTPacket/src",
+        "//third_party/paho_mqtt/MQTTClient-C/src",
+    ]
+
+    deps = [
+        "//device/rockchip/hardware:hardware",
+        "//kernel/liteos_m/kal/posix",
+    ]
+}
